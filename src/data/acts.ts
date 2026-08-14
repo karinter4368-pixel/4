@@ -6,19 +6,19 @@ export const ACTS_DATA: ActData[] = [
     title: 'Act 1 · 破晓试炼',
     phaseName: '前期对线、空间之灵与红隼争夺',
     subtitle: 'River & Jungle Skirmish · 中路抢线分流，对抗路空间之灵与发育路红隼博弈',
-    summary: '总决赛首局开打，全场数万名观众的呐喊声响彻场馆。中路第一波兵线迅速交汇，中路已无河道中立蟹，真正的交锋焦点落在了1分钟刷新的对抗路「空间之灵」与发育路边线小野「红隼」的归属上。',
+    summary: '总决赛首局开打，全场数万名观众的呐喊声响彻场馆。中路第一波兵线迅速交汇，双方战术交锋焦点全面聚焦在1分钟刷新的对抗路「空间之灵」与发育路边线小野「红隼」的归属上。',
     initialDialogues: [
       {
         speaker: '官方解说席',
         characterId: 'announcer',
-        text: '欢迎来到世界冠军杯总决赛现场！决胜局开局，双方中路迅速清线！当前版本中路已无河道之灵，节奏的胜负手完全在于1分钟对抗路空间之灵与发育路红隼的争夺！',
+        text: '欢迎来到世界冠军杯总决赛现场！决胜局开局，双方中路迅速清线！第一波节奏的胜负手完全在于1分钟对抗路空间之灵与发育路红隼的争夺！',
         sfx: 'click'
       },
       {
         speaker: '虞亚岚',
         characterId: 'yu_yalan',
         emotion: 'serious',
-        text: '指挥官！中路兵线已经被我用折扇迅速清空！敌方中野辅正在往对抗路靠拢，他们想要强吃1分钟刷新的空间之灵！'
+        text: '指挥官！中路兵线已经被我挥动半人高的大折扇迅速清空！敌方中野辅正在往对抗路靠拢，他们想要强吃1分钟刷新的空间之灵！'
       },
       {
         speaker: '陈春池',
@@ -114,7 +114,7 @@ export const ACTS_DATA: ActData[] = [
       },
       {
         id: 'act1_opt3',
-        choiceText: '指令全员在中路两侧河道草丛保持隐蔽蹲守，等待中路河道刷新中立生物并抓取敌方走位。',
+        choiceText: '指令全员在中路两侧河道草丛保持隐蔽蹲守，放弃游走并等待敌方走位失误。',
         heroId: 'commander',
         tpDelta: -14,
         afChanges: {
@@ -125,14 +125,14 @@ export const ACTS_DATA: ActData[] = [
         },
         isPositive: false,
         tacticalTitle: '战术误判 · 错失双边中立资源',
-        rootCauseAnalysis: '指挥官未认清中路无河道蟹的版本改动，死守中路草丛盲目蹲伏，导致对抗路空间之灵与发育路红隼全被敌方收入囊中。',
-        coachAdvice: '现行版本中路无河蟹，清线后必须立刻分流支援双边争夺空间之灵或红隼，原地驻留只会白白丧失节奏。',
+        rootCauseAnalysis: '中路清线后原地死蹲草丛未分流支援，导致对抗路空间之灵与发育路红隼全被敌方收入囊中。',
+        coachAdvice: '前期清线后必须立刻分流支援双边争夺空间之灵或红隼，原地盲目蹲伏只会白白丧失对线优势与抢4节奏。',
         outcomeDialogues: [
           {
             speaker: '吴露亚',
             characterId: 'wu_luya',
             emotion: 'surprised',
-            text: '搞什么啊指挥官？！中路根本就没有河蟹刷出来，敌方不仅拿了红隼还拿了空间之灵！'
+            text: '搞什么啊指挥官？！在中路死蹲根本蹲不到人，敌方不仅拿了红隼还拿了空间之灵！'
           },
           {
             speaker: '梁锦浩',

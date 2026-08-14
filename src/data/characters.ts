@@ -1,6 +1,6 @@
 import { CharacterProfile, CharacterId } from '../types';
 
-import yuYalanImg from '../assets/images/char_xiaoqiao_1786708736129.jpg';
+import yuYalanImg from '../assets/images/char_xiaoqiao_fan_1786709276229.jpg';
 import chenChunchiImg from '../assets/images/char_zhuangzhou_1786708725626.jpg';
 import liangJinhaoImg from '../assets/images/char_yixing_1786708747601.jpg';
 import fangJialuImg from '../assets/images/char_dolia_1786708713290.jpg';
@@ -19,9 +19,9 @@ export const CHARACTERS: Record<CharacterId, CharacterProfile> = {
     quote: '有指挥官你在身后看着，亚岚的折扇一定能吹散所有阴霾！',
     skillName: '星华缭乱',
     skillDesc: '召唤持续流星雨对范围内敌方造成毁灭性群体法术轰击，并大幅提升移动速度。',
-    bio: '小巧圆脸与紫色大眼睛的元气少女。深棕黑色头发挽成双环形发髻，缀以紫色花朵发饰；身穿紫白露肩古风短裙与白色泡泡广袖，手持一柄巨大华美折扇。',
+    bio: '小巧圆脸与紫色大眼睛的元气少女。深棕黑色头发挽成双环形发髻，缀以紫色花朵发饰；身穿紫白露肩古风短裙与白色泡泡广袖，手持一柄半人高的华美巨型战斗折扇（单手持唯一巨扇）。',
     portrait: yuYalanImg,
-    tags: ['巨大折扇', '双环发髻', '古风短裙', '泡泡广袖']
+    tags: ['半人高巨扇', '双环发髻', '古风短裙', '泡泡广袖']
   },
   chen_chunchi: {
     id: 'chen_chunchi',
