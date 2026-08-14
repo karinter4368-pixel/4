@@ -1,0 +1,6 @@
+{
+  "name": "稷下战队：心动战术指挥官",
+  "description": "集王者荣耀电竞赛事拟真、高压战术抉择、5位核心传承者羁绊攻略与专业赛后战术MVP复盘于一体的深度二次元视觉小说应用。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
