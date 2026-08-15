@@ -696,11 +696,21 @@ export default function App() {
                         <div className="text-slate-300 text-[10px] line-clamp-2">
                           {rec.choiceSelectedText}
                         </div>
-                        <div className="mt-1 flex items-center gap-2 text-[9px] font-mono">
+                        <div className="mt-1 flex flex-wrap items-center gap-1.5 text-[9px] font-mono">
                           <span className={rec.tpDelta > 0 ? 'text-[#42f59e]' : 'text-rose-400'}>
                             TP: {rec.tpDelta > 0 ? `+${rec.tpDelta}` : rec.tpDelta}
                           </span>
-                          <span className="text-[#c8a05e]">AF: +{rec.afDelta}</span>
+                          {Object.entries(rec.afChanges || {}).map(([charKey, delta]) => {
+                            const val = Number(delta) || 0;
+                            return (
+                              <span
+                                key={charKey}
+                                className={val >= 0 ? 'text-[#c8a05e]' : 'text-rose-400'}
+                              >
+                                {charKey.slice(0, 2)}: {val > 0 ? `+${val}` : val}
+                              </span>
+                            );
+                          })}
                         </div>
                       </div>
                     ))
