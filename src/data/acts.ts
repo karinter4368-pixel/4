@@ -47,8 +47,8 @@ export const ACTS_DATA: ActData[] = [
         heroId: 'liang_jinhao',
         tpDelta: 15,
         afChanges: {
-          liang_jinhao: 5,
-          chen_chunchi: 5,
+          liang_jinhao: 6,
+          chen_chunchi: 7,
           yu_yalan: 4
         },
         isPositive: true,
@@ -83,9 +83,9 @@ export const ACTS_DATA: ActData[] = [
         tpDelta: 13,
         afChanges: {
           chen_chunchi: -3,
-          wu_luya: 6,
-          yu_yalan: 5,
-          fang_jialu: 4
+          wu_luya: 7,
+          fang_jialu: 6,
+          yu_yalan: 5
         },
         isPositive: true,
         tacticalTitle: '弃边保核 · 控红隼斩一血',
@@ -195,9 +195,9 @@ export const ACTS_DATA: ActData[] = [
         heroId: 'fang_jialu',
         tpDelta: 16,
         afChanges: {
-          fang_jialu: 6,
-          yu_yalan: 5,
+          fang_jialu: 8,
           wu_luya: 5,
+          yu_yalan: 4,
           liang_jinhao: 4,
           chen_chunchi: 4
         },
@@ -232,8 +232,8 @@ export const ACTS_DATA: ActData[] = [
         heroId: 'chen_chunchi',
         tpDelta: 11,
         afChanges: {
-          yu_yalan: 6,
-          chen_chunchi: -4,
+          chen_chunchi: 7,
+          yu_yalan: 5,
           wu_luya: -3
         },
         isPositive: true,
@@ -345,9 +345,9 @@ export const ACTS_DATA: ActData[] = [
         heroId: 'wu_luya',
         tpDelta: 18,
         afChanges: {
-          wu_luya: 7,
-          fang_jialu: 6,
-          liang_jinhao: 5
+          wu_luya: 8,
+          fang_jialu: 7,
+          liang_jinhao: 6
         },
         isPositive: true,
         tacticalTitle: '声东击西 · 瞬杀单带战神',
@@ -379,13 +379,14 @@ export const ACTS_DATA: ActData[] = [
         heroId: 'yu_yalan',
         tpDelta: 12,
         afChanges: {
-          yu_yalan: 7,
-          chen_chunchi: -4
+          yu_yalan: 8,
+          chen_chunchi: 6,
+          liang_jinhao: 3
         },
         isPositive: true,
         tacticalTitle: '围魏救赵 · 中路强推外塔',
-        rootCauseAnalysis: '果断以边换中撕开敌方中路门户，虞亚岚战术地位确立极为兴奋，但陈春池因防御塔失守产生自责。',
-        coachAdvice: '以中换边战略价值极高，但战后需要及时抚平边路抗压选手的心理压力。',
+        rootCauseAnalysis: '果断以边换中撕开敌方中路门户，虞亚岚战术地位确立极为兴奋，陈春池也得到指挥官及时回防赞许。',
+        coachAdvice: '以中换边战略价值极高，战术执行果断才能抢占视野主导权。',
         outcomeDialogues: [
           {
             speaker: '虞亚岚',
@@ -488,11 +489,11 @@ export const ACTS_DATA: ActData[] = [
         heroId: 'liang_jinhao',
         tpDelta: 22,
         afChanges: {
-          liang_jinhao: 8,
+          liang_jinhao: 9,
           chen_chunchi: 7,
-          yu_yalan: 6,
-          wu_luya: 6,
-          fang_jialu: 6
+          yu_yalan: 5,
+          wu_luya: 5,
+          fang_jialu: 5
         },
         isPositive: true,
         tacticalTitle: '高地弈界 · 全员羁绊绝地反杀',
@@ -530,9 +531,9 @@ export const ACTS_DATA: ActData[] = [
         heroId: 'fang_jialu',
         tpDelta: 15,
         afChanges: {
-          yu_yalan: 8,
-          fang_jialu: -3,
-          wu_luya: 3
+          fang_jialu: 7,
+          yu_yalan: 7,
+          wu_luya: 4
         },
         isPositive: true,
         tacticalTitle: '天籁舍身 · 牺牲保塔清兵',
@@ -645,7 +646,7 @@ export const ACTS_DATA: ActData[] = [
           wu_luya: 9,
           yu_yalan: 5,
           liang_jinhao: 5,
-          fang_jialu: 4
+          fang_jialu: 5
         },
         isPositive: true,
         tacticalTitle: '假打诱敌 · 极光毁灭轰击',
@@ -682,15 +683,15 @@ export const ACTS_DATA: ActData[] = [
         heroId: 'liang_jinhao',
         tpDelta: 14,
         afChanges: {
+          chen_chunchi: 7,
+          fang_jialu: 6,
           liang_jinhao: 6,
-          yu_yalan: 6,
-          chen_chunchi: -3,
-          fang_jialu: -3
+          yu_yalan: 5
         },
         isPositive: true,
         tacticalTitle: '双游抗压 · 稳夺暗影龙权',
         rootCauseAnalysis: '双游走承受了主宰的高额拍击与敌方全部POKE消耗，血量见底，为后排双C创造出绝对安全的控龙环境。',
-        coachAdvice: '辅助承担主要伤害保护C位吃龙是标准打法，但需密切关注前排承伤极限避免团灭。',
+        coachAdvice: '辅助承担主要伤害保护C位吃龙是标准打法，战后指挥官对双游走的高度认可让全队充满温情。',
         outcomeDialogues: [
           {
             speaker: '陈春池',
@@ -830,14 +831,14 @@ export const ACTS_DATA: ActData[] = [
         heroId: 'wu_luya',
         tpDelta: 15,
         afChanges: {
-          wu_luya: 7,
-          chen_chunchi: 5,
-          fang_jialu: -2,
+          wu_luya: 6,
+          chen_chunchi: 6,
+          fang_jialu: 6,
           yu_yalan: 3
         },
         isPositive: true,
         tacticalTitle: '肉身抗塔 · 稳步蚕食三路',
-        rootCauseAnalysis: '庄周与朵莉亚轮流抗塔伤害，吴露亚高效推平建筑，但方佳璐护盾被打碎受到惊吓。',
+        rootCauseAnalysis: '庄周与朵莉亚轮流抗塔伤害，吴露亚高效推平建筑，全队前后排各司其职稳健破三路。',
         coachAdvice: '在面对高爆发防守阵容时，利用超级兵和前排轮流抗塔拆建筑是最稳妥的胜势扩大法。',
         outcomeDialogues: [
           {
@@ -1004,11 +1005,11 @@ export const ACTS_DATA: ActData[] = [
         heroId: 'chen_chunchi',
         tpDelta: 18,
         afChanges: {
-          chen_chunchi: -2,
-          yu_yalan: 7,
-          wu_luya: 7,
-          liang_jinhao: 6,
-          fang_jialu: 6
+          chen_chunchi: 8,
+          yu_yalan: 6,
+          wu_luya: 6,
+          liang_jinhao: 5,
+          fang_jialu: 5
         },
         isPositive: true,
         tacticalTitle: '坚如磐石 · 肉身封泉点塔绝杀',
